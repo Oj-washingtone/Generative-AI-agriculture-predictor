@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoilSmart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="onboarding-overlay" class="slow-fade onboarding-overlay">
+      <div class="tabs">
+        <input
+          type="radio"
+          class="tabs-radio"
+          name="tabs-example"
+          id="tab1"
+          checked
+        />
+
+        <h2 class="tabs-label">Welcome to SoilSmart</h2>
+        <div class="tabs-content">
+          <img src="./assets/onboarding1.jpg" alt="" class="tabs-image" />
+          <p class="tabs-content-text">
+            Step 1: Join the SoilSmart Community
+            <br />
+            <span
+              >Discover a world of soil intelligence at your fingertips.</span
+            >
+          </p>
+          <div class="buttons">
+            <button class="tab-button">
+              <label for="tab2">Next</label>
+            </button>
+          </div>
+        </div>
+        <input type="radio" class="tabs-radio" name="tabs-example" id="tab2" />
+        <h2 class="tabs-label">Easily Upload and Improve Soil Samples</h2>
+
+        <div class="tabs-content">
+          <img src="./assets/onboarding2.jpg" alt="" class="tabs-image" />
+          <p class="tabs-content-text">
+            Step 2: Upload Your Soil Sample
+            <br />
+            <span>Let's get started on optimizing your farm's potential!</span>
+          </p>
+          <div class="buttons">
+            <button class="tab-button">
+              <label for="tab1">Previous</label>
+            </button>
+            <button class="tab-button">
+              <label for="tab3">Next</label>
+            </button>
+          </div>
+        </div>
+        <input type="radio" class="tabs-radio" name="tabs-example" id="tab3" />
+        <h2 class="tabs-label">Unlocking Insights for Healthy Harvests</h2>
+
+        <div class="tabs-content">
+          <img src="./assets/onboarding3.jpg" alt="" class="tabs-image" />
+          <p class="tabs-content-text">
+            Step 3: Analyze Your Soil
+            <br />
+            <span>Our AI extracts vital data from your soil images.</span>
+          </p>
+          <div class="buttons">
+            <button class="tab-button">
+              <label for="tab2">Previous</label>
+            </button>
+            <button class="tab-button">
+              <label for="tab4">Next</label>
+            </button>
+          </div>
+        </div>
+
+        <input type="radio" class="tabs-radio" name="tabs-example" id="tab4" />
+        <h2 class="tabs-label">Optimizing Crop Choices</h2>
+
+        <div class="tabs-content">
+          <img src="./assets/onboarding4.jpg" alt="" class="tabs-image" />
+          <p class="tabs-content-text">
+            Step 4: Get Personalized Recommendations
+            <br />
+            <span
+              >Discover farming practices to enhance soil health tailored just
+              for you.</span
+            >
+          </p>
+          <div class="buttons">
+            <button class="tab-button">
+              <label for="tab3">Previous</label>
+            </button>
+            <button id="get-started-button" class="tab-button">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="assets/logo.png" alt="logo" />
+        <h2>SoilSmart</h2>
+      </div>
+      <ul class="links">
+        <h4>Main Menu</h4>
+        <li>
+          <a href="#">Upload Soil Image</a>
+        </li>
+        <li>
+          <a href="#">Soil Analysis</a>
+        </li>
+        <li>
+          <a href="#">Crop Suitability</a>
+        </li>
+        <h4>Account</h4>
+        <li class="logout-link">
+          <a href="#">Sign in</a>
+        </li>
+      </ul>
+    </aside>
+    <script src="./main.js"></script>
+  </body>
+</html>
